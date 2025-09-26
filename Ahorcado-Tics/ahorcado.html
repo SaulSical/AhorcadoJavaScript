@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado Simple</title>
+    <link rel="stylesheet" href="/Ahorcado.css">
+    
+</head>
+<body>
+    <div class="contenedor">
+        <h1>🎯 Juego del Ahorcado</h1>
+        
+        <div id="info">
+            <p>Fallos: <span id="fallos">0</span> / 6</p>
+            <p>Categoría: Animales</p>
+        </div>
+
+        <div id="dibujo">Selecciona una letra para empezar</div>
+
+        <div id="palabra">_ _ _ _</div>
+
+        <div class="botones-letras" id="letras"></div>
+
+        <div id="mensaje"></div>
+
+        <button class="boton-accion" onclick="nuevoJuego()" id="boton-nuevo">Nuevo Juego</button>
+    </div>
+
+    <script src="/Ahorcado.js"></script>
+</body>
+</html>
